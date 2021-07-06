@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+*{
+    box-sizing: border-box;
+}
+
+/* main */
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+	line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .1;
+    background: #1c1d21;
+    z-index: 1;
+}
+.clearfix{
+    clear: both;
+}
+
+/* start my framework */
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.text-center{
+    text-align: center;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.h1{
+    font-size: 2em;
+}
+
+/*end framework */
+
+/* navbar */
+
+nav{
+    height: 0;
+    position: relative;
+    z-index: 2;
+}
+.main-nav .nav-content{
+	width: 100%;
+	padding: 10px 20px;
+}
+.main-nav .navbar-brand{
+    width: 40%;
+    text-transform: capitalize;
+	margin: 25px 0px 0 0px;
+}
+.main-nav .links{
+    width: 44%;
+    text-transform: capitalize;
+	margin: 25px 0px 0 0px;
+}
+.main-nav .navbar-brand h1{
+    font-weight: 400;
+    font-size: 35px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.main-nav .navbar-brand h1 span{
+	color: #f7b71d;
+}
+.main-nav .nav-content .nav{
+	display: none;
+	width: 100%;
+	padding: 6px 20px;
+	text-align: right;
+	font-size: 30px;
+	background-color: #1c1d21;
+}
+.main-nav .nav-content .nav a{
+	color: #fff;
+}
+.main-nav .links li{
+    display: inline-block;
+    margin: 30px 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-nav .links li a{
+    color: #fff;
+}
+.main-nav .links li a:hover{
+	color: #009DFF;
+}
+.links li a.active{
+	color: #009DFF;
+}
+.main-nav .nav-content .book a{
+    display: inline-block;
+    margin: 35px 0 0 0;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1.4px solid #009DFF;
+    color: #009DFF;
+    padding: 15px 35px;
+/*    transition: .3s all ease-in-out;*/
+}
+.main-nav .nav-content .book a:hover{
+	border: 1.4px solid #fff;
+	color: #fff;
+}
+
+/* start header */
+header{
+    position: relative;
+}
+#home{
+    height: 100vh;
+    background-image: url(../images/bradcam3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#home .home-content{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+    z-index: 2;
+}
+#home .home-content .unlock{
+    top: 45%;
+    position: absolute;
+    left: 30%;
+}
+#home .home-content .unlock h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 93px;
+    font-weight: 400;
+}
+#home .home-content .unlock p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 23px;
+    line-height: 1.7;
+}
+
+/*frist*/
+.get{
+    padding: 100px 0;
+}
+.get .get-content .in .touch{
+    width: 60%;
+    float: left;
+}
+.get .get-content .in .touch p{
+    font-size: 27px;
+    font-weight: 600;
+    margin: 100px 0 20px 0;
+    float: left;
+}
+.get .get-content .in .touch form{
+    
+}
+.get .get-content .in .touch form input{
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+.get .get-content .in .touch form .search{
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: #fff;
+    color: #009DFF;
+    border: 1px solid #009DFF;
+}
+.get .get-content .in .touch form .search:hover{
+    color: #fff;
+    background-color: #009DFF;
+}
+.get .get-content .in .touch form textarea{
+    padding: 15px;
+    font-size: 15px;
+    height: 168px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    width: 100%;
+}
+.get .get-content .in .about{
+    width: 30%;
+    float: left;
+}
+.get .get-content .in .about .address{
+    margin-bottom: 25px;
+}
+.get .get-content .in .about .phone{
+    margin-bottom: 25px;
+}
+.get .get-content .in .about .email{
+    margin-bottom: 25px;
+}
+.get .get-content .in .about h2{
+    font-size: 16px;
+    color: #2a2a2a;
+    float: left;
+}
+.get .get-content .in .about p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #4D4D4D;
+    margin-bottom: 13px;
+}
+.get .get-content .in .about .phone i{
+    left: -160px;
+}
+.get .get-content .in .about .email i{
+    left: -220px;
+}
+.get .get-content .in .about i{
+    color: #8f9195;
+    position: relative;
+    top: 0;
+    right: 0;
+    left:-230px;
+    bottom: 0;
+    font-size: 27px;
+}
+
+/*secound section*/
+.contact{
+    background-color: #000;
+    padding: 100px 0;
+}
+.contact .contact-content{
+    color: #fff;
+}
+.contact .contact-content .address{
+    padding: 0 57px 0 0;
+}
+.contact .contact-content .address a{
+    color: #fff;
+}
+.contact .contact-content .address,
+.contact .contact-content .reserve,
+.contact .contact-content .navigation,
+.contact .contact-content .news{
+    width: 25%;
+}
+.contact .contact-content .address h3,
+.contact .contact-content .reserve h3,
+.contact .contact-content .navigation h3,
+.contact .contact-content .news h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.contact .contact-content .address p,
+.contact .contact-content .reserve p,
+.contact .contact-content .navigation p,
+.contact .contact-content .news p{
+    font-size: 16px;
+    color: #BABABA;
+    margin-bottom: 23px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.contact .contact-content .navigation ul li{
+    font-size: 16px;
+    color: #BABABA;
+    line-height: 42px;
+}
+.contact .contact-content .news form{
+    position: relative;
+    margin-bottom: 20px;
+}
+.contact .contact-content .news form input{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #000;
+    border: none;
+}
+.contact .contact-content .news form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background: #009DFF;
+    padding: 10px;
+    cursor: pointer;   
+}

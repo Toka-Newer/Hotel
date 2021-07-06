@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+*{
+    box-sizing: border-box;
+}
+
+/* main */
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+	line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .1;
+    background: #1c1d21;
+    z-index: 1;
+}
+.clearfix{
+    clear: both;
+}
+
+/* start my framework */
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.text-center{
+    text-align: center;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.h1{
+    font-size: 2em;
+}
+
+/*end framework */
+
+/* navbar */
+
+nav{
+    height: 0;
+    position: relative;
+    z-index: 2;
+}
+.main-nav .nav-content{
+	width: 100%;
+	padding: 10px 20px;
+}
+.main-nav .navbar-brand{
+    width: 40%;
+    text-transform: capitalize;
+	margin: 25px 0px 0 0px;
+}
+.main-nav .links{
+    width: 44%;
+    text-transform: capitalize;
+	margin: 25px 0px 0 0px;
+}
+.main-nav .navbar-brand h1{
+    font-weight: 400;
+    font-size: 35px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.main-nav .navbar-brand h1 span{
+	color: #f7b71d;
+}
+.main-nav .nav-content .nav{
+	display: none;
+	width: 100%;
+	padding: 6px 20px;
+	text-align: right;
+	font-size: 30px;
+	background-color: #1c1d21;
+}
+.main-nav .nav-content .nav a{
+	color: #fff;
+}
+.main-nav .links li{
+    display: inline-block;
+    margin: 30px 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-nav .links li a{
+    color: #fff;
+}
+.main-nav .links li a:hover{
+	color: #009DFF;
+}
+.links li a.active{
+	color: #009DFF;
+}
+.main-nav .nav-content .book a{
+    display: inline-block;
+    margin: 35px 0 0 0;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1.4px solid #009DFF;
+    color: #009DFF;
+    padding: 15px 35px;
+/*    transition: .3s all ease-in-out;*/
+}
+.main-nav .nav-content .book a:hover{
+	border: 1.4px solid #fff;
+	color: #fff;
+}
+
+
+/* start header */
+header{
+    position: relative;
+}
+#home{
+    height: 100vh;
+    background-image: url(../images/bradcam.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#home .home-content{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+    z-index: 2;
+}
+#home .home-content .unlock{
+    top: 45%;
+    position: absolute;
+    left: 25%;
+}
+#home .home-content .unlock h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 93px;
+    font-weight: 400;
+}
+#home .home-content .unlock p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 23px;
+    line-height: 1.7;
+}
+
+/*first section*/
+.about{
+    margin: 100px 0;
+}
+.about .about-content{
+
+}
+.about .about-content .us{
+    width: 50%;
+}
+.about .about-content .us span{
+    color: #009DFF;
+    font-size: 15px;
+}
+.about .about-content .us h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0 90px 0 0;
+}
+.about .about-content .us p{
+    color: #919191;
+    margin: 25px 115px 30px 0;
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: 400;
+}
+.about .about-content .us .link a::before{
+    position: absolute;
+    content: "";
+    background: #919191;
+    width: 90px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.about .about-content .us .link a:hover::before{
+    color: #009DFF;
+}
+.about .about-content .us .link a{
+    color: #919191;
+    padding: 0 0 15px 0;
+    position: relative;
+}
+.about .about-content .us .link a:hover{
+    color: #009DFF;
+}
+.about .about-content .imgs{
+    width: 50%;
+}
+.about .about-content .imgs .img1{
+    width: 40%;
+}
+.about .about-content .imgs .img2{
+    width: 40%;
+    margin: 40px 0 0 75px;
+}
+
+/*secound section*/
+.food .food-content img{
+    width: 100%;
+}
+.food .food-content .serve{
+    margin: 100px 40px 100px 135px;
+}
+.food .food-content .serve .fresh{
+    width: 50%;
+    float: left;
+    padding: 0 95px 0 0;
+}
+.food .food-content .serve .fresh h3{
+    font-size: 22px;
+    color: #1F1F1F;
+    padding: 0 200px 0 0;
+    margin-bottom: 10px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.food .food-content .serve .fresh p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+/*3 section*/
+.for{
+    margin: 150px 0;
+}
+.for .for-content{
+    border: 1px solid #BABABA;
+    padding: 38px 50px;
+}
+.for .for-content p{
+    margin: 0 170px 0 115px;
+    font-size: 30px;
+    color: #1F1F1F;
+    font-weight: 400;
+}
+.for .for-content a{
+    background: #009DFF;
+    color: #fff;
+    padding: 12px 53px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid transparent;
+}
+.for .for-content a:hover{
+    color: #009DFF;
+    border: 1px solid #009DFF;
+    background: #fff;
+}
+
+/*4 section*/
+.insta{
+    margin: 100px 0 -7px 0;
+}
+.insta .insta-content .instagram{
+    width: 20%;
+    position: relative;
+}
+.insta .insta-content .instagram img{
+    width: 100%;
+}
+.insta .insta-content .instagram .overlayinsta{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 269.8px;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+.insta .insta-content .instagram .overlayinsta i{
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    right: 0;
+    text-align: center;
+    font-size: 34px;
+}
+.insta .insta-content .instagram:hover .overlayinsta{
+    opacity: 1;
+    visibility: visible
+}
+
+/*5 section*/
+.contact{
+    background-color: #000;
+    padding: 100px 0;
+}
+.contact .contact-content{
+    color: #fff;
+}
+.contact .contact-content .address{
+    padding: 0 57px 0 0;
+}
+.contact .contact-content .address a{
+    color: #fff;
+}
+.contact .contact-content .address,
+.contact .contact-content .reserve,
+.contact .contact-content .navigation,
+.contact .contact-content .news{
+    width: 25%;
+}
+.contact .contact-content .address h3,
+.contact .contact-content .reserve h3,
+.contact .contact-content .navigation h3,
+.contact .contact-content .news h3{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.contact .contact-content .address p,
+.contact .contact-content .reserve p,
+.contact .contact-content .navigation p,
+.contact .contact-content .news p{
+    font-size: 16px;
+    color: #BABABA;
+    margin-bottom: 23px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.contact .contact-content .navigation ul li{
+    font-size: 16px;
+    color: #BABABA;
+    line-height: 42px;
+}
+.contact .contact-content .news form{
+    position: relative;
+    margin-bottom: 20px;
+}
+.contact .contact-content .news form input{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #000;
+    border: none;
+}
+.contact .contact-content .news form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background: #009DFF;
+    padding: 10px;
+    cursor: pointer;   
+}

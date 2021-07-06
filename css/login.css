@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+*{
+    box-sizing: border-box;
+}
+
+/* main */
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+	line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    background: #1c1d21;
+    z-index: 1;
+}
+.clearfix{
+    clear: both;
+}
+
+/* start my framework */
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.text-center{
+    text-align: center;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.h1{
+    font-size: 2em;
+}
+
+/*end framework */
+
+/*navbar*/
+.main-nav{
+    position: relative;
+    height: 0;
+    z-index: 2;
+}
+.main-nav .nav-content .navbar-brand{
+    width: 84%;
+    text-transform: capitalize;
+    margin: 25px 0px 0 0px;
+}
+.main-nav .nav-content .navbar-brand h1{
+    font-weight: 400;
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.main-nav .nav-content .link{
+    margin: 50px 0 0 0;
+}
+.main-nav .nav-content .link a{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*section*/
+.log{
+    background-image: url(../images/jorg-angeli-1tyuLfDOnG0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.log .log-content{
+    position: absolute;
+    top: 22%;
+    right: 30%;
+    left: 30%;
+    bottom: 26%;
+    text-align: center;
+    padding: 40px 30px;
+    z-index: 2;
+    background-color: #f8f9fa;
+    border-radius: 10px;log
+}
+.log .log-content h2{
+    font-size: 25px;
+    color: #36454E;
+}
+.log .log-content form div label{
+    margin: 10px 0;
+    font-size: 15px;
+}
+.log .log-content form div input{
+    color: #36454E;
+    letter-spacing: .3px;
+    border: solid 1px #D9DDE2;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px 0 #dfe1e5;
+    width: 100%;
+    height: 35px;
+}
+.log .log-content form div button{
+    font-size: 17px;
+    font-weight: 300;
+    width: 100%;
+    margin: 25px 0;
+    padding: 10px 0;
+    border: solid 1px #D9DDE2;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px 0 #36454E;
+    background-color: #295e7f;
+    color: #f8f9fa;
+    cursor: pointer;
+}
