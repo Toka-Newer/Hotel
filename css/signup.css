@@ -135,6 +135,9 @@ h1,h2,h3,h4,h5,h6,p{
     color: #f8f9fa;
     cursor: pointer;
 }
+.sign .sign-content form div button a{
+    color: #fff;
+}
 .sign .sign-content .by{
     margin: 15px 0;
 }
